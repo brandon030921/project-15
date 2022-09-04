@@ -1,0 +1,422 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+header{
+    background-color: #181818;
+
+}
+
+nav{
+    padding: 30px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li{
+    color: white;
+    margin-left: 60px;
+    list-style: none;
+    font-size: 90%;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.hero-pic{
+    flex-basis: 55%;
+}
+
+.hero-pic img{
+    width: 100%;
+}
+
+.main-text{
+    flex-basis: 45%;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.main-text h3{
+    color: #C91B28;
+}
+
+.main-text h1{
+    color: white;
+    font-size: 400%;
+}
+
+.main-text p{
+    color: white;
+    max-width: 70%;
+}
+
+.main-text button{
+    margin-top: 30px;
+    padding: 10px 30px;
+    background-color: #C91B28;
+    border: none;
+    color: white;
+    font-weight: 700;
+}
+
+.page2{
+    background-color: #181818;
+    position: relative;
+}
+
+.left-grey{
+    background-color: #1b1b1b;
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 40px 200px;
+}
+
+.card1, .card2, .card3{
+    z-index: 3;
+    flex-basis: 30%;
+    background-color: #1E1E1E;
+    padding: 40px 15px;
+    justify-self: center;
+    align-self: center;
+}
+
+.box-container{
+    justify-self: center;
+    align-self: center;
+}
+
+.card1 p, .card2 p, .card3 p{
+    max-width: 60%;
+    color: white;
+}
+
+.card1 h2, .card2 h2, .card3 h2{
+    font-size:200%;
+    color: white;
+    margin: 15px 0px;
+}
+
+.card2 img, .card3 img{
+    margin-top: 20px;
+    padding: 0px;
+}
+
+.card1 img{
+    margin-top:0px;
+}
+
+.card1 h3, .card2 h3, .card3 h3{
+    color:#C91B28;
+    margin: 20px 0px;
+}
+
+.card2{
+    background-color: #C91B28;
+}
+
+.card2 h3{
+    color: white;
+}
+
+.stats{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    color: white;
+    padding: 100px 200px;
+}
+
+.left, .right{
+    z-index: 3;
+}
+
+.left h1{
+    color: #d2313b;
+    font-size: 800%;
+    font-weight: 700;
+    text-align: center;
+}
+
+.left h2{
+    padding-left: 30px;
+    text-align: center;
+}
+
+.right{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+}
+
+.right h2{
+    color: #d72834;
+    font-size: 300%;
+    font-weight: 700;
+}
+
+.column{
+    background-color: #252525;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.featured{
+    height: 100%;
+    background-color: #181818;
+}
+
+.heading{
+    padding: 50px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.featured-left h2{
+    color: white;
+    font-size: 250%;
+}
+
+.featured-left p{
+    color: white;
+}
+
+.featured-right button{
+    margin-top: 30px;
+    padding: 10px 30px;
+    background-color: #C91B28;
+    border: none;
+    color: white;
+    font-weight: 700;
+}
+
+.featured-low{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 50px 200px;
+    gap: 20px;
+}
+
+.featured-low img{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.box{
+    background-color: #252525;
+    padding: 30px;
+}
+
+.featured-low h2, .featured-low h3{
+    color: white;
+}
+
+.featured-low h2{
+    margin-top: 15px;
+}
+
+.featured-low h3{
+    color: #C91B28;
+}
+
+#box3{
+    padding-bottom: 64px;
+}
+
+.next-project{
+    background-color: #181818;
+    padding: 40px 0px;
+}
+
+.next-project-container{
+    margin: 0px 200px;
+    padding: 40px 40px;
+    background-color: #2e2e2e;
+    display: flex;
+}
+
+.next-project-text h1{
+    color: white;
+    font-weight: 700;
+    font-size: 250%;
+}
+
+.next-project-text p{
+    color: white;
+    margin: 30px 0px;
+    font-size: 70%;
+    max-width: 80%;
+}
+
+.next-project-container button{
+    margin: auto 0;
+    padding: 15px 40px;
+    background-color: #C91B28;
+    border: none;
+    color: white;
+    font-weight: 700;
+}
+
+.nav2{
+    background-color: #181818;
+}
+
+.nav2 ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.nav2 ul li{
+    margin-right: 30px;
+    color: white;
+}
+
+.bottom{
+    background-color: #1b1b1b;
+    padding-left: 200px;
+    position: relative;
+}
+
+.social-media-icon{
+    position: absolute;
+    left: 50%;
+    margin-left: -120px;
+    padding: 20px 0px;
+}
+
+.logo2{
+    margin-left: 40px;
+}
+
+.bottom{
+    padding: 20px 0px;
+}
+
+@media screen and (max-width:700px){
+    nav ul{
+        display: none;
+    }
+    
+    nav{
+        padding: 10px 20px;
+    }
+
+    .hero{
+        flex-direction: column;
+        margin: 0px 0px;
+        padding-left: 10px;
+    }
+
+    .main-text h1{
+        font-size: 350%;
+    }
+    
+    .main-text p{
+        font-size: 90%;
+    }
+
+    .main-text h3{
+        font-size: 90%;
+    }
+
+    .cards{
+        flex-direction: column;
+        padding: 40px 10px;
+    }
+
+    .stats{
+        grid-template-columns: 1fr;
+        padding: 100px 10px;
+    }
+
+    .left{
+        padding-bottom: 30px;
+    }
+
+    .heading{
+        padding: 50px 10px;
+        gap:20px;
+    }
+
+    .featured-low{
+        padding: 50px 10px;
+    }
+
+    .next-project-container{
+        margin: 0px 10px;
+        flex-direction: column;
+    }
+
+    .next-project-text h1{
+        font-size: 200%;
+    }
+
+    .next-project-text p{
+        font-size: 60%;
+    }
+
+    .nav2 ul{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .logo2{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width:500px){
+    .right{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    .heading{
+        flex-direction: column;
+    }
+
+    .featured-low{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+}
